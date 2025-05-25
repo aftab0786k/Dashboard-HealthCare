@@ -1,0 +1,92 @@
+.activity-feed {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.activity-summary {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.activity-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.chart-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.chart-bars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  height: 100px;
+  width: 20px;
+}
+
+.chart-bar {
+  width: 6px;
+  border-radius: 3px;
+}
+
+.chart-label {
+  font-size: 12px;
+  color: #64748b;
+}
+
+@media (max-width: 992px) {
+  .activity-feed {
+    padding: 15px;
+  }
+  
+  .chart-bars {
+    width: 15px;
+  }
+  
+  .chart-bar {
+    width: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .activity-chart {
+    height: 100px;
+  }
+  
+  .chart-bars {
+    height: 80px;
+  }
+  
+  .chart-bar {
+    width: 4px;
+  }
+  
+  .chart-label {
+    font-size: 10px;
+  }
+}
