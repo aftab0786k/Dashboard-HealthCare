@@ -84,7 +84,8 @@
   position: relative;
   background: none;
   border: none;
-  color: var(--text-light);
+   color: var(--primary-color);
+
   font-size: 1.25rem;
   padding: 0.5rem;
   border-radius: 50%;

@@ -21,7 +21,7 @@ const Header = () => {
         <div className="header-right">
           <button className="notification-btn" aria-label="Notifications">
             <i className="bi bi-bell-fill"></i>
-            <span className="notification-badge">3</span>
+            {/* <span className="notification-badge">3</span> */}
           </button>
           
           <button className="add-btn" aria-label="Add new">
